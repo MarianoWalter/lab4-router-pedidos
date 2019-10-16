@@ -7,6 +7,7 @@ import { PedidosListaComponent } from './pedidos-lista/pedidos-lista.component';
 import { ProductosListaComponent } from './productos-lista/productos-lista.component';
 
 import Rutas from './app.pages';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import Rutas from './app.pages';
     AppComponent,
     PedidosListaComponent,
     ProductosListaComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
